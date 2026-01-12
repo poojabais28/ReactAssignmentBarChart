@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+input {
+  padding: 8px;
+  width: 50%;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button.active {
+  background-color: #f57c00;
+  color: white;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-top: 30px;
+  height: 200px;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+.bar {
+  width: 20px;
+  background-color: #1976d2;
+  transition: 0.3s;
+}
+
+.bar.highlight {
+  background-color: #f57c00;
+}
+.button-container{
+  margin-top: 20px;
+}
+.input-container input{
+  min-width: 400px;
+}
